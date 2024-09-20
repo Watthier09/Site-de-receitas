@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(219, 137, 42)
+}
+.confi{
+    left: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    padding: 20px;
+    background-color: black;
+    font-size: 20px;
+}
+.center{
+    width: 100%;
+    text-align: left;
+}
+
+.center a {
+    left: 200%;
+    text-align: left;
+    margin: 25px;
+    border-top: 25;
+    width: 400%;
+    top: 150%;
+    color: aliceblue;
+    text-decoration:none;
+    font-weight: bold;
+}
+h1{
+    padding: 20px;
+    font-size: 50px;
+}
+footer{
+    background-color:black;
+        color:aliceblue;
+        bottom: 0 ;
+}
+footer{
+        text-align: center;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+      }
+      input{
+        
+        font-size: 40px;
+        background-color:aliceblue ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+         
+        align-items: center;
+      }
+    button{
+       position: absolute;
+        text-align: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="confi">
+            <div class="center">
+                <a href="home.html">Menu</a> <!--cria página do menu-->
+                <a href="Receitas.html">Receitas</a><!--cria página de receitas-->
+                <a href="cadastro.html">Cadastro</a> <!--cria página de cadastro-->
+            </div>
+        </div>
+    </header
+    >
+
+    <h1>Efetuar cadastro</h1>
+<form action="/pagina-processador-dados-do-form" method="post"></form>
+<fieldset>
+ <label for="nome">Nome</label>
+ <input type="text" minlength="3" id="nome">
+ <label for="email">E-mail</label>
+ <input type="text" minlength="10" id="email">
+ <label for="cep">CEP</label>
+<input type="text" minlength="8" id="CEP">
+<label for="rua">Rua</label>
+<input type="text" minlength="3" id="rua">
+<label for="numero">Numero</label>
+<input type="text" minlength="2" id="numero">
+<label for="complemento">Complemento</label>
+<input type="text" id="complemento">
+<label for="cidade">Cidade</label>
+<input type="text" minlength="5" id="cidade">
+<label for="uf">UF</label>
+<input type="text" minlength="2">
+</fieldset>
+
+</body>
+<footer>
+    &#169Tia Jurema 2024
+</footer>
+</html>
